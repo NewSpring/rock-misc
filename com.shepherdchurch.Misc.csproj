@@ -54,7 +54,7 @@
       <Project>{cb9372cd-9c1d-47ab-92d8-702d4d68324f}</Project>
       <Name>DotLiquid</Name>
     </ProjectReference>
-    <<ProjectReference Include="..\rock\Rock.Rest\Rock.Rest.csproj">
+    <ProjectReference Include="..\rock\Rock.Rest\Rock.Rest.csproj">
       <Project>{b89dfd33-ce93-44e1-8616-c31acdfe89cb}</Project>
       <Name>Rock.Rest</Name>
       <Private>False</Private>
