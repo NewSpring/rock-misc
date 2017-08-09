@@ -53,10 +53,10 @@
       <HintPath>..\RockWeb\Bin\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Rock">
-      <HintPath>..\RockWeb\Bin\Rock.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
+    <ProjectReference Include="..\Rock\Rock\Rock.csproj">
+      <Project>{8f8c2a79-24f4-4157-8b99-45f75fa85799}</Project>
+      <Name>Rock</Name>
+    </ProjectReference>
     <Reference Include="Rock.Rest">
       <HintPath>..\RockWeb\Bin\Rock.Rest.dll</HintPath>
     </Reference>
